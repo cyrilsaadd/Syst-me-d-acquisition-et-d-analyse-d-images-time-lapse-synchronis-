@@ -1,6 +1,6 @@
-# 🧠 PRONTO — Système d’acquisition et d’analyse d’images time-lapse synchronisé
+Système d’acquisition et d’analyse d’images time-lapse synchronisé
 
-## 📖 Description du projet
+## Description du projet
 
 **PRONTO** est un système d’imagerie time-lapse développé à l’**IMT Atlantique** pour l’**IUEM**, visant à observer des **diatomées au microscope**.  
 Le dispositif combine :
@@ -17,7 +17,7 @@ Les images sont ensuite **traitées et analysées** (détection, création de vi
 
 ---
 
-## 🧩 Architecture du projet
+## Architecture du projet
 
 Structure des dossiers :
 - `controle_arduino/` : scripts d’acquisition et de contrôle Arduino  
@@ -34,13 +34,13 @@ Structure des dossiers :
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Dépendances Python
 
 pip install opencv-python numpy matplotlib pandas pyserial ids-peak ids-peak-ipl
 
-💡 Les bibliothèques `ids_peak` et `ids_peak_ipl` proviennent du SDK IDS Peak (caméras IDS).  
+Les bibliothèques `ids_peak` et `ids_peak_ipl` proviennent du SDK IDS Peak (caméras IDS).  
 Téléchargez-les depuis : https://fr.ids-imaging.com/ids-peak.html
 
 ---
@@ -54,7 +54,7 @@ Source de lumière et support de montage
 
 ---
 
-## 🚀 Utilisation
+## Utilisation
 
 ### 🔹 Mode 1 : Lumière ON/OFF
 
@@ -108,13 +108,13 @@ Arduino → interfaceexcel.ino
 
 ---
 
-## 🧠 Traitement des images
+## Traitement des images
 
 ### 📹 Création de vidéo timelapse
 Script : creation_videos.py  
 Combine les images capturées en une vidéo.
 
-### 🔍 Détection d’objets (ex. diatomées)
+### Détection d’objets (ex. diatomées)
 Script : vid_detection.py  
 - Recherche un template (image de référence) dans chaque frame  
 - Supporte la rotation du template pour une détection plus robuste  
@@ -123,7 +123,7 @@ Script : vid_detection.py
 
 ---
 
-## 🧑‍💻 Auteurs
+## Auteurs
 
 Projet PRONTO — IMT Atlantique x IUEM  
 Développé par Cyril Saad, Molka Jabbeur, Thomas De Saint Savin, Anycia Raulet et Anatole Perbene.
@@ -131,7 +131,7 @@ Encadré par l’équipe IUEM — projet d’acquisition et d’analyse d’imag
 
 ---
 
-## 🧾 Licence
+## Licence
 
 Ce projet est distribué sous licence MIT.  
 Vous êtes libres de le réutiliser, modifier et redistribuer avec attribution.
